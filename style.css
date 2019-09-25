@@ -1,0 +1,43 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap:;
+  grid-auto-rows: minmax(100px, auto);
+
+}
+
+.one {
+  grid-column: 1 / 12;
+  grid-row: 1;
+  background-color: #2ECC71;
+}
+.two {
+  grid-column: 1 / 5;
+  grid-row: 2 / 4;
+  background-color:#E74C3C;
+}
+.three {
+  grid-column: 5/11;
+  grid-row: 2;
+  background-color: #e67e22;
+}
+.four {
+  grid-column: 5/9;
+  grid-row: 3;
+  background-color:#f39c12;
+}
+.five {
+  grid-column: 1/12;
+  grid-row: 4/7;
+  background-color: #2c3e50;
+}
+.six {
+  grid-column: 9/12;
+  grid-row: 3;
+  background-color: #16a085;
+}
+.seven {
+  grid-column: 11/12;
+  grid-row: 2;
+  background-color: #95a5a6;
+}
